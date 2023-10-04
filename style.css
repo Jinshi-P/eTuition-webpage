@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  width: 100%;
+  padding: 10px;
+  background-color: grey;
+  position: sticky;
+  top: 0;
+}
+header img {
+  border: 3px solid #464766;
+  border-radius: 5px;
+}
+
+header a {
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 30px;
+  margin-right: 0;
+  letter-spacing: 1px;
+  color: aliceblue;
+  align-items: center;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header button {
+  width: 80px;
+  height: 30px;
+  padding: 5px 12px;
+  border-radius: 6px;
+  margin-left: 30px;
+  font-weight: bolder;
+  background-color: #464766;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.main-section {
+  width: 100%;
+
+  background-size: cover;
+  background-image: url(https://media.istockphoto.com/id/1250479244/photo/asian-boy-student-video-conference-e-learning-with-teacher-and-classmates-on-computer-in.jpg?s=612x612&w=0&k=20&c=I4ZCPv42AqVPMM536-QNkmfFYL0KBse5ybcPlX4CJYo=);
+  position: relative;
+  background-position: center;
+
+  align-items: center;
+}
+.main-section .container {
+  display: flex;
+  justify-content: space-between;
+}
+.left-section h1 {
+  position: relative;
+  margin-left: 50px;
+  font-size: 40px;
+}
+.left-section p {
+  margin-left: 70px;
+  letter-spacing: 1px;
+  font-size: 25px;
+  color: rgba(240, 62, 62, 0.897);
+  font-style: normal;
+  text-decoration-style: solid white;
+}
+.left-section button {
+  margin-left: 400px;
+  background-color: rgb(197, 39, 39);
+  border-radius: 6px;
+  color: aliceblue;
+  font-weight: bolder;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+.right-section {
+  margin-right: 30px;
+  margin-top: 350px;
+  margin-bottom: 50px;
+  width: 300px;
+  background-color: #fff;
+  padding: 30px 10px;
+  border-radius: 12px;
+  box-shadow: 0 5px 6px;
+}
+.right-section h4 {
+  font-size: 16px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #666669;
+}
+.right-section .input-group {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: 20px auto;
+}
+.input-group label {
+  font-size: 14px;
+  color: rgb(47, 48, 77);
+}
+.submit-section {
+  text-align: center;
+}
+.submit-button {
+  border-radius: 6px;
+  margin-top: 20px;
+  padding: 10px;
+  cursor: pointer;
+  width: 200px;
+  background-color: rgb(49, 49, 97);
+  color: aliceblue;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.section-two .container {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(193, 211, 221, 0.89);
+}
+.section-two .video-container {
+  margin: 20px;
+  padding: 10px;
+}
+iframe {
+  border-radius: 20px;
+  border: none;
+}
+.section-two h1 {
+  letter-spacing: 1px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(58, 58, 114);
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
+  margin-top: 70px;
+  padding: 10px;
+  line-height: 40px;
+}
+.section-three .card-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 300px;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 10px 5px 26px rgb(78, 78, 99);
+  border-radius: 30px;
+}
+.section-three img {
+  border-radius: 8px;
+  margin-right: 50px;
+  transition: 0.5s;
+}
+.image-container img:hover {
+  transform: scale(1.1) rotate(10deg);
+}
+.section-three h4 {
+  color: rgb(122, 122, 194);
+  letter-spacing: 1px;
+  line-height: 40px;
+  font-size: 20px;
+}
+.section-three .image-container h1 {
+  color: rgb(113, 113, 128);
+  text-align: center;
+}
+.section-four img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  align-items: center;
+}
+.section-four .card-container {
+  width: 100%;
+  height: 220px;
+  background-color: rgb(151, 166, 179);
+  justify-content: space-between;
+}
+.card {
+  
+  margin: 10px;
+  padding: 5px;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  color: #666669;
+}
